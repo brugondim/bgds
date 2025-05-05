@@ -2,10 +2,46 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Bem-vindo ao BGDS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BGDS</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      width: 100%;
+      background-color: #ffffff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    img {
+      max-width: 90%;
+      max-height: 90%;
+      height: auto;
+      width: auto;
+    }
+  </style>
 </head>
 <body>
-  <h1>Site em construção 🚧</h1>
-  <p>Este é um site hospedado no GitHub Pages com domínio personalizado.</p>
+  <img src="BGDS.jpg" alt="Logo BGDS" class="fade-in">
 </body>
 </html>
